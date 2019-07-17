@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MainActivity">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="9"
+    android:id="@+id/frag"></FrameLayout>
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:id="@+id/group"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:checked="true"
+        android:button="@null"
+        android:id="@+id/but"
+        android:background="@drawable/selector"
+        />
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:id="@+id/but1"
+        android:background="@drawable/selector1"
+        />
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:id="@+id/but2"
+        android:background="@drawable/selector2"
+        />
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:id="@+id/but3"
+        android:background="@drawable/selector3"
+        />
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:id="@+id/but4"
+        android:background="@drawable/selector4"
+        />
+</RadioGroup>
+
+</LinearLayout>
